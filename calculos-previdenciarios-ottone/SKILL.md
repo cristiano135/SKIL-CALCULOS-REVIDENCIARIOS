@@ -49,11 +49,13 @@ Depois complete o caso usando `assets/caso_modelo.json` como guia de campos (cad
 pedir as duas hipóteses (com e sem especial), rode duas vezes.
 
 ### 3. Calcular
-A base `assets/series_indices.json` já traz as séries oficiais do BCB até 08/2026: INPC, IGP-DI e
-IPCA-E desde 07/1994 (IPCA-E desde 2001) e SELIC mensal. A meta SELIC só está disponível para 10 e
-11/2021; ela é usada nos juros da poupança de 05/2012 a 11/2021. Se o cálculo precisar de meses mais
-novos ou de juros de poupança, atualize (INPC, IGP-DI, IPCA-E, SELIC e meta SELIC, desde 07/1994) direto do
-Banco Central. O script valida cada ano do INPC contra o reajuste do INSS:
+A base `assets/series_indices.json` traz as séries oficiais do BCB até 08/2026 e foi conferida:
+- INPC, IGP-DI e SELIC mensal desde 07/1994;
+- IPCA-E desde 2001;
+- meta SELIC de 2012 a 2026;
+- juros de mora de 07/1994 a 11/2021.
+
+Para cálculos com atualização posterior a 09/2026, atualize os índices:
 ```bash
 python scripts/atualizar_indices.py                       # direto do BCB (precisa de acesso a api.bcb.gov.br)
 python scripts/atualizar_indices.py --csv bcdata.sgs.*.csv  # ou CSVs exportados do SGS
