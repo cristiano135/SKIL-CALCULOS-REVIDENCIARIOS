@@ -4,7 +4,7 @@
     python atualizar_indices.py            # baixa tudo desde 07/1994 e valida
     python atualizar_indices.py --checar   # só valida o arquivo atual
     python atualizar_indices.py --csv bcdata.sgs.188.csv bcdata.sgs.4390.csv ...
-                                            # importa CSVs exportados do SGS (código no nome do arquivo)
+                                            # importa CSV/.xlsx/.numbers do SGS (código no nome do arquivo)
 
 Séries: INPC (188), IGP-DI (190), IPCA-E (10764), SELIC acumulada no mês (4390) e meta SELIC (432,
 convertida na meta vigente no 1º dia de cada mês, usada nos juros da poupança).
@@ -42,6 +42,26 @@ def baixar(codigo, ini: date, fim: date):
             sys.exit(f"sem acesso a api.bcb.gov.br ({e}). Libere o domínio na rede do ambiente "
                      "ou informe os índices em caso.series.")
         a = b + timedelta(days=1)
+    return out
+
+
+def ler_tabela(arq: Path):
+    """Lê CSV do SGS ('data';'valor'), ou .xlsx/.numbers com as mesmas duas colunas."""
+    suf = arq.suffix.lower()
+    if suf == ".numbers":
+        from numbers_parser import Document  # pip install numbers-parser
+        rows = Document(str(arq)).sheets[0].tables[0].rows(values_only=True)[1:]
+    elif suf in (".xlsx", ".xlsm"):
+        from openpyxl import load_workbook
+        rows = list(load_workbook(arq, read_only=True, data_only=True).active.iter_rows(min_row=2, values_only=True))
+    else:
+        rows = [l.replace('"', "").split(";") for l in arq.read_text(encoding="utf-8-sig").splitlines()[1:]]
+    out = []
+    for r in rows:
+        if not r or not r[0]:
+            continue
+        dt = r[0].strftime("%d/%m/%Y") if hasattr(r[0], "strftime") else str(r[0]).strip()
+        out.append((dt, str(r[1]).strip()))
     return out
 
 
@@ -99,7 +119,7 @@ def main():
             if not m:
                 sys.exit(f"código da série não encontrado no nome: {arq}")
             cod = int(m.group(1))
-            linhas = [l.replace('"', "").split(";") for l in Path(arq).read_text(encoding="utf-8-sig").splitlines()[1:] if l.strip()]
+            linhas = ler_tabela(Path(arq))
             dados = [{"data": dt, "valor": v.replace(",", ".")} for dt, v in linhas]
             if cod == 432:
                 atual.setdefault("meta_selic_mensal", {}).update(meta_inicio_mes(dados))
