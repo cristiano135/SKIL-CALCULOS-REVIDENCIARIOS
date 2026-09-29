@@ -1,0 +1,12 @@
+{
+  "_obs": "Reproduz o cálculo-modelo do escritório (Aposentadoria Especial, DIB 16/10/2019, atualização 08/05/2025). Dados pessoais fictícios.",
+  "segurado": {"nome": "SEGURADO EXEMPLO", "nit": "000.00000.00-0", "cpf": "000.000.000-00", "nascimento": "13/08/1976", "sexo": "M"},
+  "beneficio": {"especie": "46 - Aposentadoria Especial", "nb": "000.000.000-0", "dib": "16/10/2019", "rmi": 4119.82},
+  "processo": {"numero": "0000000-00.2021.4.01.3800", "inscricao_inss": "02/01/1992", "ajuizamento": "21/01/2021", "citacao": "01/10/2021"},
+  "liquidacao": {"data_atualizacao": "08/05/2025", "diferencas_ate": "28/02/2025", "honorarios_percentual": 10},
+  "competencias_sem_salario": [
+    {"competencia": "07/1992", "empresa": "EMPRESA A", "data": "01/07/1992"},
+    {"competencia": "08/2019", "empresa": "EMPRESA B", "data": "01/08/2019"}
+  ],
+  "advogado": {"nome": "Cristiano da Silva Ottone", "oab": "OAB/MG 152.214"}
+}

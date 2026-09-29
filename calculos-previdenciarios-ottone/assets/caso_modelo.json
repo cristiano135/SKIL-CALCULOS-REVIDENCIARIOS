@@ -1,0 +1,57 @@
+{
+  "_como_usar": "Gere o esqueleto com scripts/cnis_para_json.py a partir do CNIS e complete os campos abaixo. Datas em DD/MM/AAAA; competências em MM/AAAA. Apague os blocos que não se aplicam.",
+  "segurado": {
+    "nome": "NOME COMPLETO",
+    "nit": "000.00000.00-0",
+    "cpf": "000.000.000-00",
+    "nascimento": "01/01/1965",
+    "sexo": "M"
+  },
+  "beneficio": {
+    "especie": "42 - Aposentadoria por Tempo de Contribuição",
+    "nb": "",
+    "der": "01/03/2024",
+    "dib": null,
+    "rmi": null,
+    "regra": null,
+    "expectativa_sobrevida": null,
+    "_obs": "rmi informada (carta de concessão/sentença) dispensa o cálculo pelo CNIS. 'regra' força a regra usada na liquidação (trecho do nome, ex.: 'pedágio 50%'); sem ela usa a mais vantajosa. expectativa_sobrevida = tábua IBGE vigente na DIB (só para regras com fator)."
+  },
+  "vinculos": [
+    {"seq": 1, "empregador": "EMPRESA", "tipo": "Empregado ou Agente Público", "inicio": "01/03/1990", "fim": "31/12/2000",
+     "especial": null, "computar": true, "carencia": true,
+     "_obs": "especial: '25', '20' ou '15' quando reconhecido (PPP/LTCAT/sentença); computar=false exclui o período; carencia=false conta só como tempo"}
+  ],
+  "remuneracoes": [
+    {"seq": 1, "competencia": "07/1994", "valor": 1000.00, "valor_corrigido": null}
+  ],
+  "processo": {
+    "numero": "0000000-00.0000.4.01.3800",
+    "inscricao_inss": "",
+    "ajuizamento": "10/06/2024",
+    "citacao": "01/08/2024"
+  },
+  "liquidacao": {
+    "data_atualizacao": "30/09/2026",
+    "diferencas_desde": null,
+    "diferencas_ate": null,
+    "indice_correcao": "INPC",
+    "honorarios_percentual": 10,
+    "honorarios_ate": null,
+    "honorarios_valor_fixo": 0,
+    "acordo_desagio": 0,
+    "multa": 0,
+    "dano_moral": 0,
+    "valores_recebidos": {"05/2024": 0.00, "13º 11/2024": 0.00},
+    "reajustes": {},
+    "indices_por_competencia": {},
+    "_obs": "diferencas_ate = véspera da DIP (implantação); sem ela, até o mês anterior à atualização. honorarios_ate = data da sentença/acórdão (Súmula 111/STJ). indice_correcao 'IPCA-E' para BPC/LOAS. valores_recebidos: benefício inacumulável já pago (chave MM/AAAA ou '13º MM/AAAA'). reajustes: {'2020': 1.81} sobrepõe a tabela. indices_por_competencia: {'10/2019': {'indice': 1.17, 'juros': 0.79, 'selic': 39.21}} replica cálculo existente."
+  },
+  "series": {
+    "_obs": "Opcional. Percentuais mensais {'AAAA-MM': %} para completar/substituir: inpc, igpdi, ipcae, selic, juros_mora, taxa_legal, meta_selic_mensal."
+  },
+  "tabelas": {
+    "_obs": "Opcional. Sobrepõe assets/tabelas.json, ex.: {'salario_minimo': {'2027-01': 1700.00}}."
+  },
+  "advogado": {"nome": "Cristiano da Silva Ottone", "oab": "OAB/MG 152.214"}
+}

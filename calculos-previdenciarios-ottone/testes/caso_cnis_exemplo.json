@@ -1,0 +1,2170 @@
+{
+ "segurado": {
+  "nit": "111.22222.33-4",
+  "cpf": "111.222.333-44",
+  "nome": "JOSE EXEMPLO DA SILVA",
+  "nascimento": "10/05/1962",
+  "nome_mae": "MARIA EXEMPLO",
+  "sexo": "M"
+ },
+ "beneficio": {
+  "especie": "42 - Aposentadoria por Tempo de Contribuição",
+  "nb": "",
+  "der": "01/03/2024",
+  "expectativa_sobrevida": 21.6
+ },
+ "vinculos": [
+  {
+   "seq": 1,
+   "empregador": "METALURGICA EXEMPLO LTDA",
+   "tipo": "Empregado ou Agente Público",
+   "inicio": "01/03/1984",
+   "fim": "30/06/1998",
+   "especial": "25",
+   "computar": true,
+   "carencia": true,
+   "indicadores": [
+    "IEAN"
+   ]
+  },
+  {
+   "seq": 2,
+   "empregador": "COMERCIO EXEMPLO S.A.",
+   "tipo": "Empregado ou Agente Público",
+   "inicio": "01/08/1998",
+   "fim": "30/06/2019",
+   "especial": null,
+   "computar": true,
+   "carencia": true,
+   "indicadores": []
+  },
+  {
+   "seq": 3,
+   "empregador": "Recolhimento",
+   "tipo": "Contribuinte Individual",
+   "inicio": "01/07/2019",
+   "fim": "31/12/2020",
+   "especial": null,
+   "computar": true,
+   "carencia": true,
+   "indicadores": []
+  }
+ ],
+ "remuneracoes": [
+  {
+   "seq": 1,
+   "competencia": "07/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "08/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "09/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "10/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "11/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "12/1994",
+   "valor": 1500.0,
+   "valor_corrigido": 2850.0
+  },
+  {
+   "seq": 1,
+   "competencia": "01/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "02/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "03/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "04/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "05/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "06/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "07/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "08/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "09/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "10/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "11/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "12/1995",
+   "valor": 1580.0,
+   "valor_corrigido": 2962.0
+  },
+  {
+   "seq": 1,
+   "competencia": "01/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "02/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "03/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "04/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "05/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "06/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "07/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "08/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "09/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "10/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "11/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "12/1996",
+   "valor": 1660.0,
+   "valor_corrigido": 3074.0
+  },
+  {
+   "seq": 1,
+   "competencia": "01/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "02/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "03/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "04/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "05/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "06/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "07/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "08/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "09/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "10/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "11/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "12/1997",
+   "valor": 1740.0,
+   "valor_corrigido": 3186.0
+  },
+  {
+   "seq": 1,
+   "competencia": "01/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 1,
+   "competencia": "02/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 1,
+   "competencia": "03/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 1,
+   "competencia": "04/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 1,
+   "competencia": "05/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 1,
+   "competencia": "06/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/1998",
+   "valor": 1820.0,
+   "valor_corrigido": 3298.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/1999",
+   "valor": 1900.0,
+   "valor_corrigido": 3410.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2000",
+   "valor": 1980.0,
+   "valor_corrigido": 3522.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2001",
+   "valor": 2060.0,
+   "valor_corrigido": 3634.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2002",
+   "valor": 2140.0,
+   "valor_corrigido": 3746.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2003",
+   "valor": 2220.0,
+   "valor_corrigido": 3858.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2004",
+   "valor": 2300.0,
+   "valor_corrigido": 3970.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2005",
+   "valor": 2380.0,
+   "valor_corrigido": 4082.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2006",
+   "valor": 2460.0,
+   "valor_corrigido": 4194.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2007",
+   "valor": 2540.0,
+   "valor_corrigido": 4306.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2008",
+   "valor": 2620.0,
+   "valor_corrigido": 4418.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2009",
+   "valor": 2700.0,
+   "valor_corrigido": 4530.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2010",
+   "valor": 2780.0,
+   "valor_corrigido": 4642.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2011",
+   "valor": 2860.0,
+   "valor_corrigido": 4754.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2012",
+   "valor": 2940.0,
+   "valor_corrigido": 4866.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2013",
+   "valor": 3020.0,
+   "valor_corrigido": 4978.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2014",
+   "valor": 3100.0,
+   "valor_corrigido": 5090.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2015",
+   "valor": 3180.0,
+   "valor_corrigido": 5202.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2016",
+   "valor": 3260.0,
+   "valor_corrigido": 5314.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2017",
+   "valor": 3340.0,
+   "valor_corrigido": 5426.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "07/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "08/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "09/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "10/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "11/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "12/2018",
+   "valor": 3420.0,
+   "valor_corrigido": 5538.0
+  },
+  {
+   "seq": 2,
+   "competencia": "01/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 2,
+   "competencia": "02/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 2,
+   "competencia": "03/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 2,
+   "competencia": "04/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 2,
+   "competencia": "05/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 2,
+   "competencia": "06/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "07/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "08/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "09/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "10/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "11/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "12/2019",
+   "valor": 3500.0,
+   "valor_corrigido": 5650.0
+  },
+  {
+   "seq": 3,
+   "competencia": "01/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "02/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "03/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "04/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "05/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "06/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "07/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "08/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "09/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "10/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "11/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  },
+  {
+   "seq": 3,
+   "competencia": "12/2020",
+   "valor": 3580.0,
+   "valor_corrigido": 5762.0
+  }
+ ],
+ "_obs": "Caso fictício para testar a mecânica (CNIS -> regras -> RMI -> liquidação após 09/2025). Os índices em 'series' e os salários corrigidos são FICTÍCIOS.",
+ "processo": {
+  "numero": "0000000-00.2024.4.01.3800",
+  "ajuizamento": "10/06/2024",
+  "citacao": "01/08/2024"
+ },
+ "liquidacao": {
+  "data_atualizacao": "15/09/2026",
+  "honorarios_percentual": 10,
+  "honorarios_ate": "30/04/2026"
+ },
+ "series": {
+  "inpc": {
+   "2019-01": 0.4,
+   "2019-02": 0.4,
+   "2019-03": 0.4,
+   "2019-04": 0.4,
+   "2019-05": 0.4,
+   "2019-06": 0.4,
+   "2019-07": 0.4,
+   "2019-08": 0.4,
+   "2019-09": 0.4,
+   "2019-10": 0.4,
+   "2019-11": 0.4,
+   "2019-12": 0.4,
+   "2020-01": 0.4,
+   "2020-02": 0.4,
+   "2020-03": 0.4,
+   "2020-04": 0.4,
+   "2020-05": 0.4,
+   "2020-06": 0.4,
+   "2020-07": 0.4,
+   "2020-08": 0.4,
+   "2020-09": 0.4,
+   "2020-10": 0.4,
+   "2020-11": 0.4,
+   "2020-12": 0.4,
+   "2021-01": 0.4,
+   "2021-02": 0.4,
+   "2021-03": 0.4,
+   "2021-04": 0.4,
+   "2021-05": 0.4,
+   "2021-06": 0.4,
+   "2021-07": 0.4,
+   "2021-08": 0.4,
+   "2021-09": 0.4,
+   "2021-10": 0.4,
+   "2021-11": 0.4,
+   "2021-12": 0.4,
+   "2022-01": 0.4,
+   "2022-02": 0.4,
+   "2022-03": 0.4,
+   "2022-04": 0.4,
+   "2022-05": 0.4,
+   "2022-06": 0.4,
+   "2022-07": 0.4,
+   "2022-08": 0.4,
+   "2022-09": 0.4,
+   "2022-10": 0.4,
+   "2022-11": 0.4,
+   "2022-12": 0.4,
+   "2023-01": 0.4,
+   "2023-02": 0.4,
+   "2023-03": 0.4,
+   "2023-04": 0.4,
+   "2023-05": 0.4,
+   "2023-06": 0.4,
+   "2023-07": 0.4,
+   "2023-08": 0.4,
+   "2023-09": 0.4,
+   "2023-10": 0.4,
+   "2023-11": 0.4,
+   "2023-12": 0.4,
+   "2024-01": 0.4,
+   "2024-02": 0.4,
+   "2024-03": 0.4,
+   "2024-04": 0.4,
+   "2024-05": 0.4,
+   "2024-06": 0.4,
+   "2024-07": 0.4,
+   "2024-08": 0.4,
+   "2024-09": 0.4,
+   "2024-10": 0.4,
+   "2024-11": 0.4,
+   "2024-12": 0.4,
+   "2025-01": 0.4,
+   "2025-02": 0.4,
+   "2025-03": 0.4,
+   "2025-04": 0.4,
+   "2025-05": 0.4,
+   "2025-06": 0.4,
+   "2025-07": 0.4,
+   "2025-08": 0.4,
+   "2025-09": 0.4,
+   "2025-10": 0.4,
+   "2025-11": 0.4,
+   "2025-12": 0.4,
+   "2026-01": 0.4,
+   "2026-02": 0.4,
+   "2026-03": 0.4,
+   "2026-04": 0.4,
+   "2026-05": 0.4,
+   "2026-06": 0.4,
+   "2026-07": 0.4,
+   "2026-08": 0.4,
+   "2026-09": 0.4,
+   "2026-10": 0.4,
+   "2026-11": 0.4,
+   "2026-12": 0.4
+  },
+  "selic": {
+   "2019-01": 1.0,
+   "2019-02": 1.0,
+   "2019-03": 1.0,
+   "2019-04": 1.0,
+   "2019-05": 1.0,
+   "2019-06": 1.0,
+   "2019-07": 1.0,
+   "2019-08": 1.0,
+   "2019-09": 1.0,
+   "2019-10": 1.0,
+   "2019-11": 1.0,
+   "2019-12": 1.0,
+   "2020-01": 1.0,
+   "2020-02": 1.0,
+   "2020-03": 1.0,
+   "2020-04": 1.0,
+   "2020-05": 1.0,
+   "2020-06": 1.0,
+   "2020-07": 1.0,
+   "2020-08": 1.0,
+   "2020-09": 1.0,
+   "2020-10": 1.0,
+   "2020-11": 1.0,
+   "2020-12": 1.0,
+   "2021-01": 1.0,
+   "2021-02": 1.0,
+   "2021-03": 1.0,
+   "2021-04": 1.0,
+   "2021-05": 1.0,
+   "2021-06": 1.0,
+   "2021-07": 1.0,
+   "2021-08": 1.0,
+   "2021-09": 1.0,
+   "2021-10": 1.0,
+   "2021-11": 1.0,
+   "2021-12": 1.0,
+   "2022-01": 1.0,
+   "2022-02": 1.0,
+   "2022-03": 1.0,
+   "2022-04": 1.0,
+   "2022-05": 1.0,
+   "2022-06": 1.0,
+   "2022-07": 1.0,
+   "2022-08": 1.0,
+   "2022-09": 1.0,
+   "2022-10": 1.0,
+   "2022-11": 1.0,
+   "2022-12": 1.0,
+   "2023-01": 1.0,
+   "2023-02": 1.0,
+   "2023-03": 1.0,
+   "2023-04": 1.0,
+   "2023-05": 1.0,
+   "2023-06": 1.0,
+   "2023-07": 1.0,
+   "2023-08": 1.0,
+   "2023-09": 1.0,
+   "2023-10": 1.0,
+   "2023-11": 1.0,
+   "2023-12": 1.0,
+   "2024-01": 1.0,
+   "2024-02": 1.0,
+   "2024-03": 1.0,
+   "2024-04": 1.0,
+   "2024-05": 1.0,
+   "2024-06": 1.0,
+   "2024-07": 1.0,
+   "2024-08": 1.0,
+   "2024-09": 1.0,
+   "2024-10": 1.0,
+   "2024-11": 1.0,
+   "2024-12": 1.0,
+   "2025-01": 1.0,
+   "2025-02": 1.0,
+   "2025-03": 1.0,
+   "2025-04": 1.0,
+   "2025-05": 1.0,
+   "2025-06": 1.0,
+   "2025-07": 1.0,
+   "2025-08": 1.0,
+   "2025-09": 1.0,
+   "2025-10": 1.0,
+   "2025-11": 1.0,
+   "2025-12": 1.0,
+   "2026-01": 1.0,
+   "2026-02": 1.0,
+   "2026-03": 1.0,
+   "2026-04": 1.0,
+   "2026-05": 1.0,
+   "2026-06": 1.0,
+   "2026-07": 1.0,
+   "2026-08": 1.0,
+   "2026-09": 1.0,
+   "2026-10": 1.0,
+   "2026-11": 1.0,
+   "2026-12": 1.0
+  }
+ },
+ "advogado": {
+  "nome": "Cristiano da Silva Ottone",
+  "oab": "OAB/MG 152.214"
+ }
+}

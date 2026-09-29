@@ -1,0 +1,64 @@
+{
+  "_fonte": "Portarias interministeriais MPS/MF de reajuste (teto e reajuste dos benefícios acima do mínimo) e decretos do salário mínimo. Chave = competência (AAAA-MM) a partir da qual o valor vale.",
+  "_nao_conferidos": [
+    "salario_minimo:2026-01",
+    "teto:2026-01",
+    "reajuste_beneficios:2026",
+    "calendario_13:2026"
+  ],
+  "salario_minimo": {
+    "2015-01": 788.00,
+    "2016-01": 880.00,
+    "2017-01": 937.00,
+    "2018-01": 954.00,
+    "2019-01": 998.00,
+    "2020-01": 1039.00,
+    "2020-02": 1045.00,
+    "2021-01": 1100.00,
+    "2022-01": 1212.00,
+    "2023-01": 1302.00,
+    "2023-05": 1320.00,
+    "2024-01": 1412.00,
+    "2025-01": 1518.00,
+    "2026-01": 1621.00
+  },
+  "teto": {
+    "2015-01": 4663.75,
+    "2016-01": 5189.82,
+    "2017-01": 5531.31,
+    "2018-01": 5645.80,
+    "2019-01": 5839.45,
+    "2020-01": 6101.06,
+    "2021-01": 6433.57,
+    "2022-01": 7087.22,
+    "2023-01": 7507.49,
+    "2024-01": 7786.02,
+    "2025-01": 8157.41,
+    "2026-01": 8475.55
+  },
+  "reajuste_beneficios": {
+    "_obs": "Percentual integral aplicado em janeiro aos benefícios acima do mínimo. O primeiro reajuste após a DIB é proporcional (INPC acumulado do mês da DIB a dezembro) e é calculado pelo script.",
+    "2016": 11.28,
+    "2017": 6.58,
+    "2018": 2.07,
+    "2019": 3.43,
+    "2020": 4.48,
+    "2021": 5.45,
+    "2022": 10.16,
+    "2023": 5.93,
+    "2024": 3.71,
+    "2025": 4.77,
+    "2026": 3.90
+  },
+  "calendario_13": {
+    "_obs": "Meses (competência) em que o INSS pagou a 1ª e a 2ª parcela do 13º. 'padrao' vale para anos não listados.",
+    "padrao": [8, 11],
+    "2020": [4, 5],
+    "2021": [5, 6],
+    "2022": [4, 5],
+    "2023": [5, 6],
+    "2024": [4, 5],
+    "2025": [4, 5],
+    "2026": [4, 5]
+  }
+}

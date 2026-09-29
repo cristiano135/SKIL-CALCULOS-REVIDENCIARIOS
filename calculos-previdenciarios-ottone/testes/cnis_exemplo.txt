@@ -1,0 +1,22 @@
+INSS Instituto Nacional do Seguro Social
+CNIS - Cadastro Nacional de Informações Sociais Extrato Previdenciário
+Identificação do Filiado
+NIT: 111.22222.33-4 CPF: 111.222.333-44 Nome: JOSE EXEMPLO DA SILVA
+Data de nascimento: 10/05/1962 Nome da mãe: MARIA EXEMPLO
+Relações Previdenciárias
+Seq. NIT Código Emp. Origem do Vínculo Tipo Filiado no Vínculo Indicadores Data Início Data Fim Últ. Remun.
+1 111.22222.33-4 11.111.111/0001-11 METALURGICA EXEMPLO LTDA Empregado ou Agente Público IEAN 01/03/1984 30/06/1998 06/1998
+Remunerações
+Competência Remuneração Indicadores Competência Remuneração Indicadores
+07/1994 450,00 08/1994 450,00 09/1994 480,00
+10/1994 480,00 11/1994 480,00 12/1994 520,00
+2 111.22222.33-4 22.222.222/0001-22 COMERCIO EXEMPLO S.A. Empregado ou Agente Público 01/08/1998 06/2019
+Remunerações
+Competência Remuneração Indicadores
+08/1998 1.200,00 09/1998 1.200,00
+06/2019 4.800,00
+3 111.22222.33-4 Recolhimento Contribuinte Individual 01/07/2019 31/12/2020
+Contribuições
+Competência Data Pgto. Contribuição Salário Contribuição Indicadores
+07/2019 15/08/2019 219,56 998,00
+12/2020 15/01/2021 229,90 1.045,00
