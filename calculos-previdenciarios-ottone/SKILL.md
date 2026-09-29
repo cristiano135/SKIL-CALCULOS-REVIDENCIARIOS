@@ -49,6 +49,12 @@ Depois complete o caso usando `assets/caso_modelo.json` como guia de campos (cad
 pedir as duas hipóteses (com e sem especial), rode duas vezes.
 
 ### 3. Calcular
+Primeiro, atualize os índices (INPC, IGP-DI, IPCA-E, SELIC e meta SELIC, desde 07/1994) direto do
+Banco Central. O script valida cada ano do INPC contra o reajuste do INSS:
+```bash
+python scripts/atualizar_indices.py
+```
+Depois calcule:
 ```bash
 python scripts/calcular.py caso.json --xlsx "Calculo_de_NOME.xlsx" --json resultado.json
 ```
