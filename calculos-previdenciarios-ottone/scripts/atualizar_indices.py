@@ -3,6 +3,8 @@
 
     python atualizar_indices.py            # baixa tudo desde 07/1994 e valida
     python atualizar_indices.py --checar   # só valida o arquivo atual
+    python atualizar_indices.py --csv bcdata.sgs.188.csv bcdata.sgs.4390.csv ...
+                                            # importa CSVs exportados do SGS (código no nome do arquivo)
 
 Séries: INPC (188), IGP-DI (190), IPCA-E (10764), SELIC acumulada no mês (4390) e meta SELIC (432,
 convertida na meta vigente no 1º dia de cada mês, usada nos juros da poupança).
@@ -13,6 +15,7 @@ Validação: o INPC acumulado de cada ano tem de bater com o reajuste do INSS de
 """
 import argparse
 import json
+import re
 import sys
 import urllib.request
 from datetime import date, datetime, timedelta
@@ -85,9 +88,33 @@ def validar(series):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--checar", action="store_true")
+    ap.add_argument("--csv", nargs="+", help="CSVs do SGS (data;valor) com o código da série no nome")
     a = ap.parse_args()
     atual = json.loads(ARQ.read_text(encoding="utf-8"))
-    if not a.checar:
+    if a.csv:
+        nomes = {v: k for k, v in SERIES.items()}
+        conferidos = {n: dict(atual.get(n, {})) for n in ("inpc", "selic")}
+        for arq in a.csv:
+            m = re.search(r"sgs\.(\d+)", Path(arq).name)
+            if not m:
+                sys.exit(f"código da série não encontrado no nome: {arq}")
+            cod = int(m.group(1))
+            linhas = [l.replace('"', "").split(";") for l in Path(arq).read_text(encoding="utf-8-sig").splitlines()[1:] if l.strip()]
+            dados = [{"data": dt, "valor": v.replace(",", ".")} for dt, v in linhas]
+            if cod == 432:
+                atual.setdefault("meta_selic_mensal", {}).update(meta_inicio_mes(dados))
+                print(f"meta SELIC: {len(atual['meta_selic_mensal'])} meses", file=sys.stderr)
+            elif cod in nomes:
+                atual[nomes[cod]] = {**atual.get(nomes[cod], {}), **mensal(dados)}
+                print(f"{nomes[cod]}: {len(atual[nomes[cod]])} meses (até {max(atual[nomes[cod]])})", file=sys.stderr)
+            else:
+                sys.exit(f"série {cod} não usada pelo cálculo")
+        for nome, meses in conferidos.items():
+            for k, v in meses.items():
+                if k != "2019-10" and abs(atual[nome].get(k, v) - v) > 0.005:
+                    print(f"ATENÇÃO {nome} {k}: SGS {atual[nome][k]} x conferido no cálculo-modelo {v}", file=sys.stderr)
+        atual["_atualizado_em"] = date.today().isoformat()
+    elif not a.checar:
         hoje = date.today()
         novo = {"_fonte": atual.get("_fonte", ""), "_atualizado_em": hoje.isoformat()}
         for nome, cod in SERIES.items():
@@ -106,7 +133,7 @@ def main():
     erros = validar(atual)
     for e in erros:
         print("DIVERGÊNCIA:", e, file=sys.stderr)
-    if not a.checar:
+    if a.csv or not a.checar:
         ARQ.write_text(json.dumps(atual, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"gravado {ARQ}", file=sys.stderr)
     sys.exit(1 if erros else 0)
